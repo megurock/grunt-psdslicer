@@ -1,0 +1,26 @@
+.sns {
+	margin: 0;
+	padding: 0;
+}
+
+.sns li {
+	float: left;
+	background-image: url(../img/sprites.png);
+	background-repeat: no-repeat;
+	height: 0;
+	overflow: hidden;
+	margin: 0 10px 0 0;
+}
+
+.twitter {
+	width: 96px;
+	padding-top: 96px;
+	background-position: -227px -83px;
+}
+
+
+.facebook {
+	width: 96px;
+	padding-top: 96px;
+	background-position: -212px -212px;
+}

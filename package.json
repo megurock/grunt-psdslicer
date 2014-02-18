@@ -1,0 +1,40 @@
+{
+  "name": "grunt-psdslicer",
+  "description": "Retrieve slice data in a Photoshop file (.psd) so it can be used in a template file.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/megurock/gurnt-psdslicer",
+  "author": "Eiji Meguro",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/megurock/gurnt-psdslicer.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/hanamura/grunt-psdslicer/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "gruntplugin",
+    "photoshop",
+    "psd",
+    "spritesheet",
+    "mustache"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "mustache": "~0.8.1",
+    "psd.js": "https://github.com/movableink/psd.js/archive/master.tar.gz",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-clean": "~0.5.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2",
+    "mustache": "~0.8.1",
+    "psd.js": "https://github.com/movableink/psd.js/archive/master.tar.gz"
+  }
+}

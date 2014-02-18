@@ -1,0 +1,54 @@
+.social li {
+	float: left;
+	background-image: url(../img/social.png);
+	background-repeat: no-repeat;
+	height: 0;
+	overflow: hidden;
+	margin: 0 10px 0 0;
+}
+
+.twitter {
+	width: {{social.twitter.width}}px;
+	padding-top: {{social.twitter.height}}px;
+	background-position: -{{social.twitter.x}}px -{{social.twitter.y}}px;
+}
+
+
+.facebook {
+	width: {{social.facebook.width}}px;
+	padding-top: {{social.facebook.height}}px;
+	background-position: -{{social.facebook.x}}px -{{social.facebook.y}}px;
+}
+
+.arrows li {
+	float: left;
+	background-image: url(../img/arrows.png);
+	background-repeat: no-repeat;
+	height: 0;
+	overflow: hidden;
+	margin: 0 10px 0 0;
+}
+
+.up {
+	width: {{arrows.up.width}}px;
+	padding-top: {{arrows.up.height}}px;
+	background-position: -{{arrows.up.x}}px -{{arrows.up.y}}px;
+}
+
+.down {
+	width: {{arrows.down.width}}px;
+	padding-top: {{arrows.down.height}}px;
+	background-position: -{{arrows.down.x}}px -{{arrows.down.y}}px;
+}
+
+.left {
+	width: {{arrows.left.width}}px;
+	padding-top: {{arrows.left.height}}px;
+	background-position: -{{arrows.left.x}}px -{{arrows.left.y}}px;
+}
+
+.right {
+	width: {{arrows.right.width}}px;
+	padding-top: {{arrows.right.height}}px;
+	background-position: -{{arrows.right.x}}px -{{arrows.right.y}}px;
+}
