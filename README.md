@@ -53,9 +53,9 @@ The psd-slicer uses movableink's The PSD.js node module to parse psd files.
 
 ### Mustache Templates
 
-Templates are parsed using mustache. To obtain slice information, simply specify a slice name and its property between {{ and }}.  
+Templates are parsed using mustache. To obtain slice information, simply specify your psd file name, a slice name and a property between {{ and }}.  
 
-ie.) {{ mySlice.width }}
+ie.) {{ myPsdName.mySlice.width }}
 
 Each slice information has following properties:
 
