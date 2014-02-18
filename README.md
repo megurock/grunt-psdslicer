@@ -59,9 +59,6 @@ ie.) {{ myPsdName.mySlice.width }}
 
 Each slice information has following properties:
 
-- `name`
-Name of the spritesheet image
-
 - `width` 
 Width of the slice in the psd
 
