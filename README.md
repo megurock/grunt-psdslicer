@@ -38,7 +38,7 @@ grunt.initConfig({
 grunt.initConfig({
   psdslicer: {
     myTask: {
-      psd: 'src/psd/spritesheet.psd',  
+      psd: [ 'src/psd/psd_01.psd', 'src/psd/psd_02.psd' ],  
       template: 'src/template/template.css',
       dest: 'src/css/main.css'  
     }  
