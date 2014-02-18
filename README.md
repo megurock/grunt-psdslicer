@@ -35,7 +35,6 @@ grunt.initConfig({
 ### Usage Examples
 
 ```js
-var path = require('path');
 grunt.initConfig({
   psdslicer: {
     myTask: {
