@@ -28,13 +28,13 @@
   "devDependencies": {
     "grunt": "~0.4.2",
     "mustache": "~0.8.1",
-    "psd.js": "https://github.com/movableink/psd.js/archive/master.tar.gz",
+    "psd.js": "https://github.com/movableink/psd.js/archive/8db8fe6685e00cc6d68ffecfda4f787fea155395.tar.gz",
     "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-clean": "~0.5.0"
   },
   "peerDependencies": {
     "grunt": "~0.4.2",
     "mustache": "~0.8.1",
-    "psd.js": "https://github.com/movableink/psd.js/archive/master.tar.gz"
+    "psd.js": "https://github.com/movableink/psd.js/archive/8db8fe6685e00cc6d68ffecfda4f787fea155395.tar.gz"
   }
 }
