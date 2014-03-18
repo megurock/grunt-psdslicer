@@ -11,7 +11,7 @@ Grunt `~0.4.0`が必要です。
 npm install grunt-psdslicer --save-dev
 ```
 
-インストールしたプラグインは、次のようなJavaScriptでGruntfile内で利用することができます。
+インストールしたプラグインは、次のようなJavaScriptを記述するとGruntfile内で利用することができます。
 
 ```js
 grunt.loadNpmTasks('grunt-psdslicer');
