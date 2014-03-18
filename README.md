@@ -26,9 +26,9 @@ In your project's Gruntfile, add a section named `grunt-psdslicer` to the data o
 grunt.initConfig({
   psdslicer: {
     taskNama: {
-      psd: // path to your psd file(s),  
+      psd:      // [ path to your psd file(s) ], 
       template: // path to your template file,  
-      dest: // The destination for the build file. (css usually)  
+      dest:     // The destination for the build file. (css usually)  
     }
   },
 })
@@ -54,7 +54,7 @@ The psd-slicer uses movableink's [The PSD.js](https://github.com/movableink/psd.
 
 ### Mustache Templates
 
-Templates are parsed using mustache. To obtain slice information, simply specify your psd file name, a slice name and a property between {{ and }}.  
+Templates are parsed using [mustache](http://mustache.github.io/). To obtain slice information, simply specify your psd file name, a slice name and a property between {{ and }}.  
 
 ie.) {{ myPsdName.mySlice.width }}
 
@@ -72,8 +72,6 @@ X coordinates of the slice in the psd
 - `y`
 Y coordinates of the slice in the psd
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## To Do
 - Overwrite template
