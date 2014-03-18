@@ -3,7 +3,7 @@
   "description": "Retrieve slice data in a Photoshop file (.psd) so it can be used in a template file.",
   "version": "0.0.1",
   "homepage": "https://github.com/megurock/gurnt-psdslicer",
-  "author": "Eiji Meguro",
+  "author": "megurock",
   "repository": {
     "type": "git",
     "url": "git://github.com/megurock/gurnt-psdslicer.git"
