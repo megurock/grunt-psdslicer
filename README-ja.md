@@ -1,17 +1,17 @@
 # grunt-psdslicer
 
-> grunt-psdslicerは、Photoshopファイル(.psd)をパースし、ユーザスライス情報を取得します。読み取ったスライス情報は、Mustache形式のテンプレートから参照され、各スライスの座標やサイズ等の値が代入された状態の別ファイルを生成します。昨今のWeb開発では、compass等を利用し画像を自動的にスプライトシート化するスタイルが主流になりつつあるようですが、このプラグインの場合は、専用のpsdファイルを用意し、そこからスプライトシートを書き出すような開発スタイルに、便利に使えるのではないかと思い作成しました。
+> grunt-psdslicerは、Photoshopファイル(.psd)をパースし、ユーザスライス情報を取得します。読み取ったスライス情報は、Mustache形式のテンプレートから参照され、各スライスの座標やサイズ等の値が代入された状態の別ファイルを生成します。昨今のWeb開発では、compass等を利用し画像を自動的にスプライトシート化するスタイルが主流になりつつあるようですが、このプラグインの場合は、専用のpsdファイルを用意し、そこからスプライトシートを書き出すような開発スタイルに便利に使えるのではないかと思い作成しました。
 
 ## はじめに
 Grunt `~0.4.0`が必要です。
 
-[Grunt](http://gruntjs.com/)の使用経験がない場合は, [Getting Started](http://gruntjs.com/getting-started) ガイドをご覧ください。[Gruntfile](http://gruntjs.com/sample-gruntfile) の作成方法や、Gruntプラグインのインストール方法について説明されています。Gruntに馴染んできたら、以下のコマンドを実行し、このプラグインをインストールしてみてください。:
+[Grunt](http://gruntjs.com/)の使用経験がない場合は, [Getting Started](http://gruntjs.com/getting-started) ガイドをご覧ください。[Gruntfile](http://gruntjs.com/sample-gruntfile) の作成方法や、Gruntプラグインのインストール方法について説明されています。Gruntに馴染んできたら、以下のコマンドを実行し、このプラグインをインストールしてみてください。
 
 ```js
 npm install grunt-psdslicer --save-dev
 ```
 
-インストールしたプラグインは、次のようなJavaScriptでGruntfile内で利用することができます。:
+インストールしたプラグインは、次のようなJavaScriptでGruntfile内で利用することができます。
 
 ```js
 grunt.loadNpmTasks('grunt-psdslicer');
