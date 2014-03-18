@@ -5,7 +5,7 @@
 ## はじめに
 Grunt `~0.4.0`が必要です。
 
-[Grunt](http://gruntjs.com/)の使用経験がない場合は, [Getting Started](http://gruntjs.com/getting-started) ガイドをご覧ください。[Gruntfile](http://gruntjs.com/sample-gruntfile) の作成方法や、Gruntプラグインのインストール方法について説明されています。Gruntに馴染んできたら、以下のコマンドを実行し、このプラグインをインストールしてみてください。
+[Grunt](http://gruntjs.com/)を初めてお使いになる方は、 [Getting Started](http://gruntjs.com/getting-started) ガイドをご覧ください。[Gruntfile](http://gruntjs.com/sample-gruntfile) の作成方法や、Gruntプラグインのインストール方法について説明されています。Gruntに馴染んできたら、以下のコマンドを実行し、このプラグインをインストールしてみてください。
 
 ```js
 npm install grunt-psdslicer --save-dev
