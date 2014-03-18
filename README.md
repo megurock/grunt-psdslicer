@@ -17,7 +17,7 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-psdslicer');
 ```
 
-## The "grunt-psdslicer" task
+## Grunt-psdslicer task
 
 ### Overview
 In your project's Gruntfile, add a section named `grunt-psdslicer` to the data object passed into `grunt.initConfig()`.
@@ -25,9 +25,11 @@ In your project's Gruntfile, add a section named `grunt-psdslicer` to the data o
 ```js
 grunt.initConfig({
   psdslicer: {
-    psd: // path to your psd file,  
-    template: // path to your template file,  
-    dest: // The destination for the build file. (css usually)  
+    taskNama: {
+      psd: // path to your psd file(s),  
+      template: // path to your template file,  
+      dest: // The destination for the build file. (css usually)  
+    }
   },
 })
 ```
@@ -48,7 +50,7 @@ grunt.initConfig({
 
 ### Acknowledgements
 
-The psd-slicer uses movableink's The PSD.js node module to parse psd files.
+The psd-slicer uses movableink's [The PSD.js](https://github.com/movableink/psd.js) node module to parse psd files.
 
 ### Mustache Templates
 
@@ -74,4 +76,5 @@ Y coordinates of the slice in the psd
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## To Do
+- Overwrite template
 - Add Test
